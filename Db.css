@@ -1,0 +1,377 @@
+
+/* CSS for Restricted Page */
+
+#restrictedcontent h1 {
+  display: none;
+}
+
+.restrict-body {
+padding-bottom: 60px;
+}
+
+.restrict-accordion {
+margin-bottom: 6em;
+margin: auto;
+}
+
+.restrict-heading2 {
+display: block;
+width: 100%;
+margin: auto;
+font-family: "Ovo";
+Color: #0f354F;
+font-size: 3em;
+font-weight: bold;
+text-align: center;
+}
+
+.restrict-copy {
+font-family: "Muli";
+color: #0f354f;
+font-size: 1.5em;
+text-align: center;
+}
+
+.restrict-jumbotron {
+display: block; 
+width: 100%;
+margin: auto;
+color: #0F354F;
+padding: 1em 0 3em 0;
+text-align: center;
+}
+
+
+.restrict-heading:before {
+content: "+";
+float: right;
+}
+
+
+
+.acc-active:before {
+content: "-";
+float: right;
+}
+
+
+.restrict-heading {
+display: block;
+color: white; 
+padding: 20px;
+text-transform: uppercase;
+font-family: Muli, Sans-serif;
+text-align: left;
+font-size: 1.25em;
+margin: 0 8% 0 8%;
+cursor: pointer;
+user-select: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+}
+
+
+.restrict-row {
+margin-left: 15%; 
+margin-right: 15%;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.restrict-inner:last-child {
+margin-bottom: 5em;
+}
+
+.restrict-inner {
+padding-bottom: 2em;
+}
+
+.restrict-container:first-child {
+padding-top: 2em;
+}
+
+
+.restrict-column {
+max-width: 100%; 
+z-index: 1;
+}
+
+.restrict-description {
+max-width: 250px;
+margin-left: auto;
+margin-right: auto;
+display: none;
+
+}
+
+.restrict-column:hover .restrict-description {
+  display: block;
+  //background: rgb(220,220,220, .7);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+  padding: 7em 2em 1em 2em;
+  max-width: 250px; 
+  position: relative;
+  top: -110px;
+  color: #0F354F;
+  text-decoration: none;
+  z-index: -1;
+  margin-top: 15px;
+  margin-bottom: -100px;
+}
+
+#restrict-articles {
+background: #0B293D;
+border-radius: 10px 10px 0 0;
+-webkit-border-radius: 10px 10px 0 0;
+-moz-border-radius:10px 10px 0 0;
+-ms-border-radius:10px 10px 0 0;
+-o-border-radius:10px 10px 0 0;
+}
+
+#restrict-books {
+background: #103A4c;
+}
+
+#restrict-businessResources {
+background: #164B5C;
+}
+
+#restrict-diy {
+background: #1b5D6c;
+}
+
+#restrict-educational {
+background: #216E7C;
+}
+
+#restrict-healthAndMedical {
+background: #267F8C;
+}
+
+#restrict-historyAndGenealogy {
+background: #2C919C;
+}
+
+
+#restrict-legalResources {
+background: #31A2AC;
+}
+
+#restrict-sciTech {
+background: #37B3BC;
+}
+
+#restrict-spanish {
+background: #3DC5CC;
+border-radius: 0 0 10px 10px;
+-webkit-border-radius: 0 0 10px 10px;
+-moz-border-radius: 0 0 10px 10px;
+-ms-border-radius: 0 0 10px 10px;
+-o-border-radius: 0 0 10px 10px;
+}
+
+
+#restrict-articles:hover, #restrict-books:hover, #restrict-businessResources:hover, #restrict-diy:hover, #restrict-educational:hover, #restrict-healthAndMedical:hover, #restrict-historyAndGenealogy:hover, #restrict-legalResources:hover, #restrict-sciTech:hover, #restrict-spanish:hover {
+text-shadow: 0 0 0 white;
+}
+
+
+.restrict-img-responsive {
+max-width: 100%;
+margin-left: auto; 
+margin-right: auto; 
+padding-bottom: 1.5em;
+}
+
+@media screen and (max-width:1100px) {
+  .restrict-heading {
+    font-size: 1em;
+  }
+  .restrict-description {
+    padding-top: 20px;
+  }
+  .restrict-row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+   .restrict-column .restrict-img-responsive {
+    max-width: 130px;
+  }
+}  
+ 
+ //@media screen and (min-width: 900px) {
+  .restrict-heading {
+	margin-left: 25%;
+	margin-right: 25%;
+  }
+ } 
+  
+ @media screen and (max-width: 1175px) and (min-width: 768px) {
+  .restrict-img-responsive {
+     width: 100%;
+  }
+  .restrict-column:hover .restrict-description {
+     padding: 6.25em 2em 1em 2em; 
+     
+  
+  }
+  .restrict-row {
+     margin-top: 1.5em;
+     margin-bottom: 1.5em;
+  }
+ }  
+
+
+/*New Resources Slider*/
+
+//body {
+  background: #F5F8FA;
+}
+
+.restrict-slider {
+  width: 440px;
+  display: block;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.restrict-newicon {
+  display: inline-block;
+}
+
+.restrict-newresources {
+  display: block;
+  width: 340px;
+  background: white; 
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  text-align: center;
+  font-family: Muli;
+  //border: solid 3px #3dc5cc;
+}
+
+.restrict-newiconimg {
+  display: inline-block; 
+  width: 140px;
+  margin: 30px 100px 0px 100px;
+  -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.restrict-newdescription {
+  padding: 20px 30px;
+  -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.restrict-newresourcesheader {
+  text-align: center;
+  margin-top: 10px;
+  background: #31A2AC;
+  max-width: 340px;
+  margin: auto;
+  border-radius: 10px 10px 0px 0px;
+  padding: 15px 0;
+  font-family: Muli;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: white;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+.restrict-next, .restrict-prev {
+  display: block;
+  position: absolute;
+  top: 130px;
+  background: rgba(61,197,204, .5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-family: 'Open Sans Condensed';
+
+}
+
+.restrict-next:hover, .restrict-prev:hover {
+    background: #3dc5cc;
+    border-radius: 50%;
+    font-family: 'Open Sans Condensed';
+
+}
+
+.restrict-prev {
+  padding: 2px 8px;
+}
+
+.restrict-next {
+  padding: 2px 8px;
+  margin-left: 418px;
+}
+
+
+@media (max-width: 768px) {
+  .restrict-slider {
+  width: 200px;
+  height: 160px;
+  display: block;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  .restrict-newiconimg {
+  display: inline-block; 
+  width: 130px;
+  margin: 20px 140px 20px 0;
+  -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+  .restrict-next, .restrict-prev {
+  display: block;
+  position: absolute;
+  top: 93px;
+  background: rgba(#3dc5cc, .5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-family: 'Open Sans Condensed';
+}
+  
+  .restrict-prev {
+  padding: .5px 6px;
+  margin-left: 7px;
+}
+
+  .restrict-next {
+  padding: .5px 6px;
+  margin-left: 174px;
+}
+  .restrict-newdescription {
+  display: none; 
+}
+}
+
+ /* End CSS for Restricted Page*/
